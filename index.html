@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
@@ -21,21 +27,19 @@
         <option value="America/New_York">New York</option>
       </select>
       <div id="cities">
-        <div class="each-city">
-          <div class="city" id="london">
-            <h2>London 🇬🇧</h2>
-            <div class="time" id="london-time"></div>
-          </div>
-          <div class="date" id="london-date"></div>
+        <div class="city" id="london">
+          <h2>London 🇬🇧</h2>
+          <div class="time" id="london-time"></div>
         </div>
-        <div class="each-city">
-          <div class="city" id="melbourne">
-            <h2>Melbourne 🇳🇿</h2>
-            <div class="time" id="melbourne-time"></div>
-          </div>
-          <div class="date" id="melbourne-date"></div>
+        <div class="date" id="london-date"></div>
+
+        <div class="city" id="melbourne">
+          <h2>Melbourne 🇳🇿</h2>
+          <div class="time" id="melbourne-time"></div>
         </div>
+        <div class="date" id="melbourne-date"></div>
       </div>
+      <br />
     </div>
 
     <footer>

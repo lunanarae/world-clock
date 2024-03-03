@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(218, 247, 237);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(218, 244, 235);
+  font-family: "Madimi One", sans-serif;
 }
+
 .container {
   max-width: 600px;
   margin: 80px auto;
@@ -30,9 +30,7 @@ h2 {
   justify-content: space-between;
   margin: 30px 0;
 }
-.each-city {
-  border: 0 0 dotted rgba(0, 0, 0, 0.2);
-}
+
 .time {
   font-size: 30px;
   font-weight: bold;
@@ -45,6 +43,11 @@ h2 {
   opacity: 0.7;
   font-size: 18px;
   margin: 0;
+  font-style: italic;
+}
+a {
+  opacity: 0.7;
+  font-weight: light;
   font-style: italic;
 }
 footer {
