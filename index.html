@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styles.css" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -17,18 +18,20 @@
         <option value="seoul">Seoul</option>
         <option value="new york">New York</option>
       </select>
-
-      <div class="city">
-        <h2>London 🇬🇧</h2>
-        <div class="time">11:55:20 <small>AM</small></div>
+      <div class="each-city" id="london">
+        <div class="city">
+          <h2>London 🇬🇧</h2>
+          <div class="time" id="london-time"></div>
+        </div>
+        <div class="date" id="london-date"></div>
       </div>
-      <div class="date">Sun, 3rd March</div>
-
-      <div class="city">
-        <h2>Melbourne 🇳🇿</h2>
-        <div class="time">2:55:20 <small>PM</small></div>
+      <div class="each-city">
+        <div class="city" id="melbourne">
+          <h2>Melbourne 🇳🇿</h2>
+          <div class="time" id="melbourne-time"></div>
+        </div>
+        <div class="date" id="melbourne-date"></div>
       </div>
-      <div class="date">Sun, 3rd March</div>
     </div>
 
     <footer>
