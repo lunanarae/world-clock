@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(218, 247, 237);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: whitesmoke;
+  padding: 45px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 38px;
+  margin: 0;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.time {
+  font-size: 30px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 18px;
+  vertical-align: middle;
+}
+.date {
+  opacity: 0.7;
+  font-style: italic;
+}
+footer {
+  margin: 25px auto;
+  text-align: center;
+  font-style: italic;
+}
