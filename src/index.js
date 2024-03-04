@@ -29,16 +29,17 @@ function updateCity(event) {
   let citiesElement = document.querySelector("#cities");
 
   citiesElement.innerHTML = `<div class="city">
-  <div>
-  <h2>${cityName}</h2>
-            <div class="time" id="city-time">${cityTime.format(
-              "MMMM Do YYYY"
-            )}</div>
-          </div>
-          <div class="date" id="city-date">${cityTime.format(
-            "h:mm:ss"
-          )}<small>${cityTime.format("A")}</small></div>
-        </div>
+ <div>
+  <h2>${cityName}</h2><div class="date" id="city-date">
+     ${cityTime.format("MMMM Do YYYY")}
+   </div>
+    </div>
+         <div class="time" id="city-time">${cityTime.format(
+           "h:mm:ss"
+         )}<small>${cityTime.format("A")}</small></div>
+        
+
+  </div>
         <a href="https://showworldclock.netlify.app/"> All cities</a>`;
 }
 updateTime();

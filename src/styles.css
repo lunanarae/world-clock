@@ -1,5 +1,14 @@
 body {
-  background-color: rgb(218, 244, 235);
+  background: linear-gradient(
+    102.2deg,
+    rgb(109, 118, 150) 7.1%,
+    rgb(89, 72, 79) 14.7%,
+    rgb(69, 92, 79) 28%,
+    rgb(204, 85, 67) 43.4%,
+    rgb(237, 181, 121) 60.2%,
+    rgb(219, 230, 175) 76.8%
+  );
+  background-size: cover;
   font-family: "Madimi One", sans-serif;
 }
 
@@ -45,6 +54,7 @@ h2 {
   margin: 0;
   font-style: italic;
 }
+
 a {
   opacity: 0.7;
   font-weight: light;
